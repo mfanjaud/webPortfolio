@@ -1,0 +1,1570 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+/* line 3, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4; }
+
+/* line 9, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/* line 14, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/* line 19, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/* line 28, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+/* line 37, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/* line 43, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+textarea {
+  resize: vertical; }
+
+/* line 47, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* ==========================================================================
+   Custom CSS
+   ========================================================================== */
+/* Variables */
+/* General */
+/* line 69, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Roboto Slab', serif; }
+
+/* line 75, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+section {
+  clear: both;
+  padding: 50px 0; }
+
+/* line 80, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+h2, h3 {
+  color: #463F32;
+  font-family: 'Stardos Stencil', cursive;
+  margin-bottom: 30px; }
+
+/* line 87, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+h4 {
+  color: #463F32;
+  text-transform: uppercase;
+  font-family: 'Stardos Stencil', cursive; }
+
+/* line 94, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+p {
+  font-family: 'Roboto Slab', serif; }
+
+/* line 98, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.module {
+  padding: 120px 0 100px; }
+  @media (max-width: 767px) {
+    /* line 98, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .module {
+      margin-left: 85px; } }
+
+/* line 106, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.module-gray {
+  background: #f5f5f5; }
+
+/* line 110, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.module-white {
+  background: #fff; }
+
+/* line 114, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.module-image {
+  padding: 0; }
+
+/* line 118, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.callout h1,
+.callout h2,
+.callout h3,
+.callout h4,
+.callout h5,
+.callout h6,
+.module-image,
+.module-image h1,
+.module-image h2,
+.module-image h3,
+.module-image h4,
+.module-image h5,
+.module-image h6 {
+  color: #fff; }
+
+/* line 134, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.paddingb-none {
+  padding-bottom: 0; }
+
+/* line 138, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.module-header {
+  margin: 0 0 50px;
+  text-align: center; }
+
+/* line 143, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.module-header-left {
+  text-align: left; }
+  /* line 146, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .module-header-left .module-line {
+    width: inherit;
+    margin: 30px 0; }
+
+/* line 152, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.module-subtitle {
+  font-style: italic;
+  font-size: 14px; }
+
+/* line 157, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.module-line {
+  background: #666;
+  width: 55px;
+  content: "";
+  height: 5px;
+  background-color: #e1c7d9;
+  margin: 10px auto; }
+
+/* line 166, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.module-icon {
+  font-size: 32px;
+  color: #fd735a;
+  margin: 0 auto;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: -4px 1px 13px rgba(0, 0, 0, 0.1); }
+
+/* line 178, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.module-title {
+  position: relative;
+  margin-bottom: 50px;
+  font-weight: 300;
+  color: #5b5963; }
+  /* line 184, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .module-title span {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: -40px;
+    z-index: 0;
+    opacity: 0.05;
+    font-weight: 700; }
+
+/* line 199, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.callout {
+  background: #5b5963;
+  padding: 30px 0;
+  color: #999; }
+  /* line 204, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .callout h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 5px; }
+
+/* line 212, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.callout-btn {
+  text-align: right; }
+  /* line 215, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .callout-btn > .btn {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+
+/* line 222, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.long-down {
+  margin-bottom: 40px; }
+
+/* Navbar fixed-left */
+/* line 229, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.navbar-fixed-left {
+  position: fixed;
+  height: 100%;
+  z-index: 998;
+  min-width: 4%; }
+  @media (max-width: 767px) {
+    /* line 229, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .navbar-fixed-left {
+      width: 85px; } }
+  /* line 239, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-fixed-left .navbar-nav > li {
+    float: none;
+    /* Cancel default li float: left */ }
+
+/* line 245, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.navbar-bottom {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 8%; }
+
+/* line 254, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.navbar-default {
+  box-shadow: none;
+  border: none;
+  background-color: #e1c7d9; }
+  /* line 261, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 0 auto; }
+    /* line 267, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      color: #463F32;
+      font-size: 1.5em;
+      -webkit-transition: all 0.3s ease-out;
+      -moz-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out; }
+  /* line 279, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-nav > li.active > a {
+    background-color: transparent;
+    color: #4EC3E0;
+    font-size: 1.8em;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; }
+
+/* line 293, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.navbar-brand {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  width: 100%;
+  height: auto; }
+  /* line 299, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-brand img {
+    max-height: 75px;
+    width: auto; }
+
+/* Slider */
+/* line 308, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.texttyper {
+  background-image: url(../img/logo_fullpage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  margin: 0;
+  top: 0;
+  height: 100vh; }
+  @media (max-width: 767px) {
+    /* line 308, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .texttyper {
+      margin-left: 85px;
+      width: 100%; } }
+  /* line 322, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .texttyper .text-zone {
+    margin-left: 10%;
+    margin-top: 15%;
+    padding: 0;
+    margin-bottom: 10%;
+    width: 40%;
+    height: auto; }
+    /* line 330, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .texttyper .text-zone h1 {
+      text-transform: uppercase;
+      font-size: 3.5em;
+      color: #ffffff;
+      margin: 0; }
+    /* line 338, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .texttyper .text-zone h2 {
+      font-size: 1.5em;
+      color: rgba(0, 0, 0, 0.6);
+      font-family: 'Roboto Slab', serif;
+      margin: 0;
+      text-transform: uppercase; }
+
+/*Mouse animate icon*/
+/* line 351, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.mouse-icon {
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  height: 50px;
+  width: 30px;
+  margin-left: -15px;
+  display: block;
+  z-index: 10;
+  opacity: 0.4; }
+  @media screen and (max-width: 767px) {
+    /* line 351, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .mouse-icon {
+      display: none; } }
+  /* line 368, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .mouse-icon .wheel {
+    position: relative;
+    border-radius: 10px;
+    background: #fff;
+    width: 4px;
+    height: 10px;
+    top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation-name: drop;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: drop;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running; }
+
+@-webkit-keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0; }
+  30% {
+    top: 10px;
+    opacity: 1; }
+  100% {
+    top: 25px;
+    opacity: 0; } }
+
+@keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0; }
+  30% {
+    top: 10px;
+    opacity: 1; }
+  100% {
+    top: 25px;
+    opacity: 0; } }
+
+/* Grey Circles */
+/* line 407, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.grey-circle {
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #463F32;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 auto; }
+  /* line 416, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .grey-circle div {
+    float: left;
+    width: 100%;
+    padding-top: 45%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: #fff; }
+    /* line 425, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .grey-circle div svg {
+      font-size: 3em; }
+
+/* line 433, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.skills .grey-circle div svg {
+  font-size: 2em; }
+
+/* line 439, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.about .grey-circle {
+  width: 50%;
+  padding-bottom: 50%; }
+
+/* Services */
+/* line 447, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.iconbox {
+  background: #fff none repeat scroll 0 0;
+  padding: 50px 20px;
+  position: relative;
+  text-align: center;
+  height: 300px;
+  max-width: 340px;
+  margin: 30px auto;
+  box-shadow: -6px 10px 40px rgba(0, 0, 0, 0.06); }
+  @media (max-width: 767px) {
+    /* line 447, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .iconbox {
+      height: auto;
+      margin-bottom: 50px; } }
+
+/* line 463, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.iconbox-icon {
+  color: #fd735a;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -35px;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+  background: #fff;
+  display: block;
+  line-height: 80px;
+  border-radius: 50px;
+  font-size: 30px;
+  box-shadow: -6px 10px 40px rgba(0, 0, 0, 0.06); }
+  /* line 479, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .iconbox-icon path {
+    fill: #e1c7d9; }
+
+/* line 484, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.iconbox-text {
+  padding-top: 30px; }
+
+/* line 488, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.iconbox-title {
+  margin: 0 0 15px;
+  padding: 0; }
+
+/* Portfolio */
+/* Filter */
+/* line 497, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+#filter {
+  list-style-type: none;
+  text-align: center;
+  margin: 0 0 40px 0;
+  padding: 0; }
+  /* line 503, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  #filter li {
+    background: #f5f5f5;
+    display: inline-block;
+    font: 400 13px/1.2 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    margin: 5px;
+    color: #5b5963;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s; }
+    /* line 520, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    #filter li:hover, #filter li.active {
+      background: #fd735a;
+      color: #fff; }
+
+/* Grid and portfolio items */
+/* line 530, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.list-items-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+  /* line 537, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .list-items-container .list-item {
+    display: block;
+    list-style: outside none none;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 33.333%;
+    -webkit-transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+    -moz-transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+    -ms-transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+    -o-transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s; }
+    /* line 549, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .list-items-container .list-item img {
+      display: block;
+      width: 100%;
+      height: auto; }
+    /* line 555, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .list-items-container .list-item figcaption {
+      background: #fa1f55;
+      background: -moz-linear-gradient(45deg, rgba(250, 31, 85, 0.8) 0%, rgba(253, 115, 90, 0.8) 100%);
+      background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(250, 31, 85, 0.8)), color-stop(100%, #fd735a));
+      background: -webkit-linear-gradient(45deg, rgba(250, 31, 85, 0.8) 0%, rgba(253, 115, 90, 0.8) 100%);
+      background: -o-linear-gradient(45deg, rgba(250, 31, 85, 0.8) 0%, rgba(253, 115, 90, 0.8) 100%);
+      background: -ms-linear-gradient(45deg, rgba(250, 31, 85, 0.8) 0%, rgba(253, 115, 90, 0.8) 100%);
+      background: linear-gradient(45deg, rgba(250, 31, 85, 0.8) 0%, rgba(253, 115, 90, 0.8) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
+      bottom: 8px;
+      left: 8px;
+      opacity: 0;
+      padding: 25px;
+      position: absolute;
+      right: 8px;
+      text-align: center;
+      top: 8px;
+      transform: scale(1.1);
+      transition: all 0.3s ease 0s; }
+    /* line 576, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .list-items-container .list-item a {
+      font-size: 0;
+      height: 100%;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      text-indent: 200%;
+      top: 0;
+      width: 100%;
+      z-index: 1000; }
+  /* line 590, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .list-items-container .list-item,
+  .list-items-container .caption-inner {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    margin-top: -20px; }
+
+/* line 600, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+figure {
+  margin: 0;
+  overflow: hidden;
+  position: relative; }
+
+/* line 607, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.caption-inner .portfolio-item-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400; }
+
+/* line 613, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.caption-inner .portfolio-item-desc {
+  color: #ddd;
+  font-size: 13px;
+  font-style: italic; }
+
+/* line 619, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.list-items-container .list-item:hover figcaption {
+  opacity: 1;
+  -webkit-transform: scale(0.97);
+  -moz-transform: scale(0.97);
+  -ms-transform: scale(0.97);
+  -o-transform: scale(0.97);
+  transform: scale(0.97); }
+
+/* Ajax portfolio */
+/* line 630, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.white-popup-block {
+  position: relative;
+  background: #fff;
+  text-align: left;
+  max-width: 940px;
+  margin: 40px auto; }
+
+/* line 638, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.mfp-bg {
+  background: #000;
+  opacity: 0.97;
+  filter: alpha(opacity=97); }
+
+/* line 644, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.popup-content,
+.popup-callout {
+  padding: 60px 40px; }
+
+/* line 649, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.popup-callout {
+  background: #f5f5f5;
+  text-align: center; }
+
+/* line 654, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.popup-header {
+  text-align: center;
+  margin: 0 0 30px; }
+
+/* line 659, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.popup-title {
+  margin: 0 0 5px; }
+
+/* line 663, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.popup-subtitle {
+  font-style: italic;
+  font-size: 14px; }
+
+/* line 668, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.popup-line {
+  background: #49e2d6;
+  width: 55px;
+  height: 1px;
+  margin: 15px auto; }
+
+/* line 675, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.mfp-close-btn-in .mfp-close {
+  color: #fff; }
+
+/* line 679, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.portfolio-slider .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  padding: 0;
+  font-size: 16px; }
+
+/* line 689, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.portfolio-slider img {
+  width: 100%; }
+
+/* line 693, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.portfolio-slider .owl-controls {
+  margin: 0; }
+
+/* line 697, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.portfolio-slider .owl-controls .owl-buttons .owl-prev {
+  left: 0;
+  margin: -20px 0 0 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -o-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0; }
+
+/* line 706, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.portfolio-slider .owl-controls .owl-buttons .owl-next {
+  right: 0;
+  margin: -20px 0 0 0;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -o-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px; }
+
+/* Skills */
+/* line 719, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.skills {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: auto;
+  margin-left: 0; }
+
+/* line 726, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.item-skills {
+  margin-bottom: 30px; }
+
+/* Portfolio */
+/* line 734, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.view {
+  z-index: 9;
+  cursor: default;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0 0 3px #ddd; }
+  /* line 743, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
+    text-shadow: none; }
+  /* line 755, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 10px;
+    text-align: center; }
+  /* line 765, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .view .mask, .view .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 80px;
+    left: 0; }
+  /* line 774, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .view img {
+    display: block;
+    position: relative; }
+  /* line 779, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .view a.info {
+    color: #fff;
+    background: #000;
+    padding: 5px 12px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    overflow: hidden;
+    text-transform: uppercase; }
+    /* line 788, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .view a.info:hover {
+      background: #e1c7d9; }
+
+/* line 795, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.view-tenth h2 {
+  color: #333;
+  margin: 20px 40px 0;
+  background: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0; }
+
+/* line 809, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.view-tenth img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  position: relative;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out; }
+
+/* line 818, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.view-tenth p {
+  color: #333;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+
+/* line 829, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.view-tenth a.info {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  transition: all 0.5s linear; }
+
+/* line 839, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.view-tenth:hover > img {
+  -webkit-transform: scale(2) rotate(10deg);
+  transform: scale(2) rotate(10deg);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  opacity: 0.3; }
+
+/* line 847, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.view-tenth:hover h2, .view-tenth:hover p, .view-tenth:hover a.info {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1; }
+
+/* line 859, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.experience .mask h2:after {
+  display: none; }
+
+/* Parallax */
+/* line 866, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.parallax {
+  height: 200px;
+  width: 100%;
+  margin-left: 0;
+  background-image: url(../img/parallax.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  @media (max-width: 767px) {
+    /* line 866, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .parallax {
+      margin-left: 55px;
+      width: auto; } }
+
+/* line 881, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+h2.parallax {
+  font-size: 3.6em;
+  color: #ffffff;
+  font-weight: 700; }
+  /* line 886, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  h2.parallax:after {
+    display: none; }
+
+/* Resume */
+/* line 894, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.resume {
+  padding-bottom: 0; }
+  /* line 897, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .resume .content-downloads {
+    height: 700px;
+    position: relative; }
+  /* line 902, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .resume div.image-left {
+    position: relative;
+    width: 50%;
+    padding-left: 10%;
+    float: left;
+    height: 100%;
+    -webkit-box-shadow: inset -7px -7px 12px -2px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset -7px -7px 12px -2px rgba(0, 0, 0, 0.15);
+    box-shadow: inset -7px -7px 12px -2px rgba(0, 0, 0, 0.15); }
+    /* line 912, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .resume div.image-left img {
+      position: absolute;
+      bottom: 0; }
+  /* line 918, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .resume .downloads-empty {
+    width: 50%;
+    background-color: #f5f5f5;
+    float: right;
+    height: 100%;
+    z-index: 2;
+    background-image: url(../img/downloadAppBG.png);
+    background-repeat: no-repeat;
+    background-position: bottom right; }
+  /* line 929, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .resume .download {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50px; }
+  /* line 939, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .resume .mode > div {
+    border-radius: 20px;
+    border: 3px solid #E1C7D9;
+    padding: 11px;
+    font-size: 1.2em;
+    position: relative;
+    padding-left: 70px;
+    color: #CFAEBF; }
+  /* line 949, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .resume .mode svg {
+    font-size: 2.5em;
+    position: absolute;
+    left: 20px;
+    top: 12px; }
+  /* line 956, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .resume .mode a {
+    color: #CFAEBF; }
+    /* line 959, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .resume .mode a:hover {
+      text-decoration: none;
+      color: #463F32; }
+
+/* Contact Form */
+/* line 971, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.contact {
+  padding-bottom: 0;
+  background: #e1c7d9;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #e1c7d9 40%, #c0a5ae 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #e1c7d9 40%, #c0a5ae 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #e1c7d9 40%, #c0a5ae 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1c7d9', endColorstr='#c0a5ae',GradientType=1 );
+  /* IE6-9 */
+  min-height: 700px;
+  width: 100%;
+  height: auto;
+  margin-left: 0; }
+  @media (max-width: 767px) {
+    /* line 971, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .contact {
+      margin-left: 85px;
+      padding: 0 20px;
+      width: auto; } }
+  /* line 988, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .contact h2 {
+    color: #ffffff; }
+    /* line 991, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+    .contact h2:after {
+      background-color: #ffffff; }
+  /* line 996, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .contact p {
+    font-size: 1.4em;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    padding-bottom: 1%; }
+  /* line 1006, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .contact input, .contact textarea {
+    min-height: 50px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    color: #ffffff; }
+  /* line 1015, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .contact textarea {
+    min-height: 200px; }
+  /* line 1019, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .contact input.btn {
+    background-color: #ffffff;
+    padding: 5px 50px;
+    font-size: 1.4em;
+    color: #e1c7d9; }
+
+/* line 1030, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+::-webkit-input-placeholder {
+  color: #ffffff !important; }
+
+/* line 1034, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+:moz-placeholder {
+  color: #ffffff !important; }
+
+/* line 1038, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+::moz-placeholder {
+  color: #ffffff !important; }
+
+/* line 1042, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+:-ms-input-placeholder {
+  color: #ffffff !important; }
+
+/* Footer */
+/* line 1050, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+footer a {
+  color: #ffffff; }
+  /* line 1053, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  footer a:hover {
+    color: #463F32;
+    text-decoration: none;
+    font-size: 1.2em;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; }
+
+/* line 1063, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+footer p {
+  background-color: #CFAEBF;
+  padding: 2% 1%;
+  color: #ffffff;
+  margin-bottom: 0;
+  text-align: center; }
+
+/**** ANIMATIONS ****/
+/* line 1076, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.animation1,
+.animation2,
+.animation3 {
+  opacity: 0; }
+
+/* line 1082, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.animation2 {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s; }
+
+/* line 1088, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.animation3 {
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s; }
+
+/**** FORM ****/
+/* line 1096, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.has-success .form-control-feedback,
+.has-error .form-control-feedback {
+  color: #ffffff; }
+
+/* line 1101, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.form-horizontal .has-feedback .form-control-feedback {
+  top: 8px !important;
+  right: 22px !important;
+  font-size: 1.5em; }
+
+/* line 1107, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.has-error .help-block {
+  background-color: #AE2424;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px; }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  /* line 1122, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border: none; }
+  /* line 1127, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle {
+    border-color: transparent; }
+  /* line 1131, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, 0.6); }
+  /* line 1136, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle:focus {
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: #c0a5ae;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; }
+  /* line 1144, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle {
+    background-color: transparent;
+    float: left;
+    margin-left: 25%;
+    width: 50%;
+    height: auto; }
+  /* line 1153, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-bottom {
+    display: none; }
+  /* line 1157, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#texttyper .text-zone {
+    margin-left: 30%;
+    margin-top: 10%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+    height: auto; }
+  /* line 1165, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#texttyper .text-zone h1 {
+    font-size: 2.5em; }
+  /* line 1169, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  #about .grey-circle,
+  .grey-circle {
+    width: 50%;
+    padding-bottom: 50%; }
+  /* line 1177, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  #skills .item-skills,
+  .center-skills,
+  #about,
+  section#skills h4,
+  section#skills p {
+    text-align: center; }
+  /* line 1185, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#about,
+  section#skills,
+  section#experience,
+  section#resume,
+  section#contact {
+    width: 80%;
+    float: right; }
+  /* line 1194, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#experience .img-responsive {
+    margin-bottom: 10px; }
+  /* line 1198, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume div.image-left img {
+    width: 80%;
+    bottom: 30%; }
+  /* line 1204, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .content-downloads {
+    height: 500px; }
+  /* line 1208, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume div.image-left,
+  section#resume .downloads-empty {
+    width: 100%; }
+  /* line 1213, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .downloads-empty {
+    position: relative;
+    background-image: none; }
+  /* line 1217, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .download {
+    top: 500px;
+    z-index: 10; }
+  /* line 1221, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#parallax {
+    background-attachment: scroll;
+    width: 80%;
+    float: right; }
+  /* line 1227, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .mode > div {
+    margin: 5px auto;
+    padding-bottom: 30px;
+    width: 80%;
+    float: center; }
+  /* line 1234, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume.mode i {
+    top: 2px; }
+  /* line 1238, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#contact p {
+    width: 80%;
+    margin-bottom: 10px; }
+  /* line 1243, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#contact form {
+    margin: 0 10px; }
+  /* line 1247, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  footer p {
+    text-align: right;
+    font-size: 0.8em; } }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  /* line 1258, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border: none; }
+  /* line 1263, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle {
+    border-color: transparent; }
+  /* line 1267, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, 0.6); }
+  /* line 1272, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle:focus {
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: #c0a5ae;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; }
+  /* line 1280, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle {
+    background-color: transparent;
+    float: left;
+    margin-left: 25%;
+    width: 50%;
+    height: auto; }
+  /* line 1289, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-bottom {
+    display: none; }
+  /* line 1293, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#texttyper .text-zone {
+    margin-left: 30%;
+    margin-top: 10%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+    height: auto; }
+  /* line 1301, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#texttyper .text-zone h1 {
+    font-size: 2.5em; }
+  /* line 1305, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  #about .grey-circle,
+  .grey-circle {
+    width: 50%;
+    padding-bottom: 50%; }
+  /* line 1313, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  #skills .item-skills,
+  .center-skills,
+  #about,
+  section#skills h4,
+  section#skills p {
+    text-align: center; }
+  /* line 1321, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#about,
+  section#skills,
+  section#experience,
+  section#resume,
+  section#contact {
+    width: 80%;
+    float: right; }
+  /* line 1330, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#experience .img-responsive {
+    margin-bottom: 10px; }
+  /* line 1334, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume div.image-left img {
+    width: 80%;
+    bottom: 30%; }
+  /* line 1340, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .content-downloads {
+    height: 500px; }
+  /* line 1344, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume div.image-left,
+  section#resume .downloads-empty {
+    width: 100%; }
+  /* line 1349, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .downloads-empty {
+    position: relative;
+    background-image: none; }
+  /* line 1353, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .download {
+    top: 500px;
+    z-index: 10; }
+  /* line 1357, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#parallax {
+    background-attachment: scroll;
+    width: 80%;
+    float: right; }
+  /* line 1363, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .mode > div {
+    margin: 5px auto;
+    padding-bottom: 30px;
+    width: 80%;
+    float: center; }
+  /* line 1370, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume.mode i {
+    top: 2px; }
+  /* line 1374, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#contact p {
+    width: 80%;
+    margin-bottom: 10px; }
+  /* line 1379, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#contact form {
+    margin: 0 10px; }
+  /* line 1383, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  footer p {
+    text-align: right;
+    font-size: 0.8em; } }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  /* line 1394, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border: none; }
+  /* line 1399, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle {
+    border-color: transparent; }
+  /* line 1403, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, 0.6); }
+  /* line 1408, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle:focus {
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: #c0a5ae;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; }
+  /* line 1416, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-default .navbar-toggle {
+    background-color: transparent;
+    float: left;
+    margin-left: 25%;
+    width: 50%;
+    height: auto; }
+  /* line 1425, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-bottom {
+    display: none; }
+  /* line 1429, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  #about .grey-circle,
+  .grey-circle {
+    width: 50%;
+    padding-bottom: 50%; }
+  /* line 1436, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  #skills .item-skills,
+  .center-skills,
+  #about,
+  section#skills h4,
+  section#skills p {
+    text-align: center; }
+  /* line 1444, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#about,
+  section#skills,
+  section#experience,
+  section#resume,
+  section#contact {
+    width: 87%;
+    float: right; }
+  /* line 1453, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#skills .center-skills img.img-responsive {
+    margin-left: 90px; }
+  /* line 1457, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#experience .col-sm-4 {
+    width: 33%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left; }
+  /* line 1467, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume div.image-left img {
+    width: 80%;
+    bottom: 30%; }
+  /* line 1473, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .content-downloads {
+    height: 700px; }
+  /* line 1477, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume div.image-left,
+  section#resume .downloads-empty {
+    width: 100%; }
+  /* line 1482, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .downloads-empty {
+    position: relative;
+    background-image: none; }
+  /* line 1486, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .download {
+    top: 700px;
+    z-index: 10; }
+  /* line 1490, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#parallax {
+    background-attachment: scroll;
+    width: 90%;
+    float: right; }
+  /* line 1496, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .mode > div {
+    margin: 5px auto;
+    padding-bottom: 30px;
+    width: 80%;
+    float: center; }
+  /* line 1503, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume.mode i {
+    top: 2px; }
+  /* line 1507, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#contact p {
+    width: 80%;
+    margin-bottom: 10px; }
+  /* line 1512, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#contact form {
+    margin: 0 10px; }
+  /* line 1516, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  footer p {
+    text-align: right;
+    font-size: 0.8em; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 1529, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-fixed-left {
+    max-width: 100px; }
+  /* line 1533, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-collapse {
+    max-width: 100px;
+    margin: 0 auto; }
+  /* line 1539, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-brand {
+    margin: 0 auto;
+    margin-left: 10px;
+    width: 100%;
+    height: auto; }
+  /* line 1547, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  #skills .item-skills,
+  .center-skills,
+  section#about p,
+  section#skills h4,
+  section#skills p {
+    text-align: center;
+    padding: 5% 5%; }
+  /* line 1556, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#about,
+  section#skills,
+  section#experience,
+  section#resume,
+  section#contact {
+    width: 93%;
+    float: right; }
+  /* line 1565, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume div.image-left img {
+    padding-right: 10%;
+    bottom: 20%; }
+  /* line 1571, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#experience .img-responsive {
+    margin-bottom: 10px; } }
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+  /* line 1580, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-fixed-left {
+    max-width: 100px; }
+  /* line 1584, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-collapse {
+    max-width: 100px;
+    margin: 0 auto; }
+  /* line 1590, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-brand {
+    margin: 0 auto;
+    margin-left: 10px;
+    width: 100%;
+    height: auto; }
+  /* line 1598, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  #skills .item-skills,
+  .center-skills,
+  section#about p,
+  section#skills h4,
+  section#skills p {
+    text-align: center;
+    padding: 5% 5%; }
+  /* line 1607, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#about,
+  section#skills,
+  section#experience,
+  section#resume,
+  section#contact {
+    width: 93%;
+    float: right; }
+  /* line 1616, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#experience .img-responsive {
+    margin-bottom: 10px; }
+  /* line 1620, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume div.image-left img {
+    padding-right: 25%; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* line 1630, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-fixed-left {
+    max-width: 90px; }
+  /* line 1634, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-collapse {
+    max-width: 90px;
+    margin: 0 auto; }
+  /* line 1640, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  .navbar-brand {
+    margin: 0 auto;
+    margin-left: 10px;
+    width: 100%;
+    height: auto; }
+  /* line 1648, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  #skills .item-skills,
+  .center-skills,
+  section#about p,
+  section#skills h4,
+  section#skills p {
+    text-align: center;
+    padding: 5% 15%; }
+  /* line 1657, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#about,
+  section#skills,
+  section#skills .left-skills,
+  section#skills .center-skills,
+  section#skills .right-skills,
+  section#experience,
+  section#resume,
+  section#contact {
+    width: 94%;
+    float: right; }
+  /* line 1670, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .content-downloads {
+    height: 700px; }
+  /* line 1674, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume div.image-left,
+  section#resume .downloads-empty {
+    width: 100%; }
+  /* line 1679, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .downloads-empty {
+    position: relative;
+    background-image: none;
+    width: 100%; }
+  /* line 1684, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .download .col-sm-5 {
+    top: 700px;
+    z-index: 10;
+    width: 100%;
+    margin: 0; }
+  /* line 1691, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume .mode > div {
+    padding-bottom: 30px;
+    width: 70%;
+    margin-left: 20%;
+    margin-bottom: 5%; }
+  /* line 1699, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#resume.mode i {
+    top: 2px;
+    padding: 10px auto; }
+  /* line 1704, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#contact p {
+    width: 70%;
+    margin-bottom: 10px;
+    margin-left: 20%; }
+  /* line 1710, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  section#contact form {
+    margin-left: 20%;
+    width: 70%; } }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 1744, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+/* line 1749, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* line 1760, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/* line 1770, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.invisible {
+  visibility: hidden; }
+
+/* line 1774, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+/* line 1780, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 1784, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+.clearfix {
+  *zoom: 1; }
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 1793, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important; }
+  /* line 1802, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  a,
+  a:visited {
+    text-decoration: underline; }
+  /* line 1807, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+  /* line 1811, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+  /* line 1815, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+  /* line 1820, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+  /* line 1826, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  thead {
+    display: table-header-group; }
+  /* line 1830, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  tr,
+  img {
+    page-break-inside: avoid; }
+  /* line 1835, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  img {
+    max-width: 100% !important; }
+  /* line 1839, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+  /* line 1846, /Users/mfanjaud/Documents/GitHub/WebPortfolio/dist/scss/main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+
+/*# sourceMappingURL=main.css.map */

@@ -87,6 +87,30 @@ $(document).ready(function() {
 			console.log(result);
 		},'json');
 	});
+    
+    /* ---------------------------------------------- /*
+    * Initialize shuffle plugin
+    /* ---------------------------------------------- */
+
+    var $portfolioContainer = $('.list-items-container');
+
+    $('#filter li').on('click', function (e) {
+        e.preventDefault();
+
+        $('#filter li').removeClass('active');
+        $(this).addClass('active');
+
+        var group = $(this).attr('data-group');
+        var groupName = $(this).attr('data-group');
+
+        $portfolioContainer.shuffle('shuffle', groupName );
+    });
+
+    $('.simple-ajax-popup').magnificPopup({
+        type: 'image',
+        gallery:{enabled:true}
+    });
+
 
 
 });
@@ -156,3 +180,5 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #4EC3E0 }";
   document.body.appendChild(css);
 };
+
+
